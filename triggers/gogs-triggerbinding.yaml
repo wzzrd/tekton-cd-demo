@@ -8,9 +8,9 @@ spec:
   - name: gitrevision
     value: $(body.after)
   - name: gitshortsha
-    value: $(body.after)
+    value: $(body.short_sha)
   - name: gitbranchname
-    value: $(body.ref)
+    value: $(body.branch_name)
   - name: gitrepositoryurl
     value: $(body.repository.clone_url)
   - name: contenttype
